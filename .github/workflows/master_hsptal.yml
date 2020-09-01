@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'hsptal'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_270b2c1b1fba4c69bc1a362213a72175 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_29aafeb85f6a4f259f65649f96575f68 }}
         package: .
