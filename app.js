@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const pug = require("pug");
 const Router = require("express");
 const connectdb = require("./db");
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000;
 
 
 
