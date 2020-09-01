@@ -13,7 +13,6 @@ const PORT = process.env.PORT || 3000;
 // var db = mongoose.connection;
 connectdb();
 
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
 
